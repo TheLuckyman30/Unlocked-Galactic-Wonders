@@ -1,0 +1,7 @@
+special_project = {
+	key = "UNLOCKED_GALACTIC_WONDERS_PROJECT_1"
+	tech_department = engineering_technology
+	cost = 50000
+	event_scope = country_event
+	on_success = { }
+}
