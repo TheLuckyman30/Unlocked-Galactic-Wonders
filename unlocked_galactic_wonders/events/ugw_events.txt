@@ -1,0 +1,15 @@
+namespace = ugw
+
+country_event = {
+	id = ugw.1
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = {
+		if = {
+			limit = { has_country_flag =  has_built_or_repaired_megastructure}
+			add_research_option = tech_dyson_sphere
+			add_research_option = tech_ring_world
+			add_research_option = tech_matter_decompressor
+		}
+	}
+}
