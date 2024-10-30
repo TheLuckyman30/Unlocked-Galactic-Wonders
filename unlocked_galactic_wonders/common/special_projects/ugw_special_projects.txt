@@ -3,7 +3,7 @@ special_project = {
 	picture = GFX_evt_dyson_sphere
 	icon = "gfx/interface/icons/situation_log/situation_log_physics.dds"
 	tech_department = physics_technology
-	cost = 20000
+	cost = 40000
 	event_scope = country_event
 	on_success = {
 		country_event = {
@@ -21,7 +21,7 @@ special_project = {
 	picture = GFX_evt_ringworld
 	icon = "gfx/interface/icons/situation_log/situation_log_engineering.dds"
 	tech_department = engineering_technology
-	cost = 20000
+	cost = 40000
 	event_scope = country_event
 	same_option_group_as = {
 		UNLOCKED_GALACTIC_WONDERS_PROJECT_1
@@ -42,7 +42,7 @@ special_project = {
 	picture = GFX_evt_matter_decompressor
 	icon = "gfx/interface/icons/situation_log/situation_log_physics.dds"
 	tech_department = physics_technology
-	cost = 20000
+	cost = 40000
 	event_scope = country_event
 	same_option_group_as = {
 		UNLOCKED_GALACTIC_WONDERS_PROJECT_1
