@@ -1,0 +1,11 @@
+on_megastructure_built = {
+	events = {
+		ugw.1
+	}
+}
+
+on_megastructure_upgraded = {
+	events = {
+		ugw.1
+	}
+}
