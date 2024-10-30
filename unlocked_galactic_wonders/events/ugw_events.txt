@@ -2,14 +2,85 @@ namespace = ugw
 
 country_event = {
 	id = ugw.1
+	title = ugw.1.title
+	desc = ugw.1.desc
+	picture = GFX_evt_megastructure_construction
+	is_triggered_only = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_country_flag = ongoing_galactic_wonders_project
+				has_country_flag = completed_galactic_wonders_project
+			}
+		}
+	}
+	option = {
+		name = ugw.1.option.1
+		hidden_effect = {
+			enable_special_project = {
+				name = UNLOCKED_GALACTIC_WONDERS_PROJECT_1 
+				owner = root
+			}
+			set_country_flag = ongoing_galactic_wonders_project
+		}
+	}
+	option = {
+		name = ugw.1.option.2
+		hidden_effect = {
+			enable_special_project = {
+				name = UNLOCKED_GALACTIC_WONDERS_PROJECT_2
+				owner = root
+			}
+			set_country_flag = ongoing_galactic_wonders_project
+		}
+	}
+	option = {
+		name = ugw.1.option.3
+		hidden_effect = {
+			enable_special_project = {
+				name = UNLOCKED_GALACTIC_WONDERS_PROJECT_3
+				owner = root
+			}
+			set_country_flag = ongoing_galactic_wonders_project
+		}
+	}
+}
+
+country_event = {
+	id = ugw.2
 	is_triggered_only = yes
 	hide_window = yes
 	immediate = {
-		if = {
-			limit = { has_country_flag =  has_built_or_repaired_megastructure}
-			add_research_option = tech_dyson_sphere
-			add_research_option = tech_ring_world
-			add_research_option = tech_matter_decompressor
+		give_technology = {
+			tech = tech_dyson_sphere
 		}
+		add_research_option = tech_ring_world
+		add_research_option = tech_matter_decompressor
+	}
+}
+
+country_event = {
+	id = ugw.3
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = {
+		give_technology = {
+			tech = tech_ring_world
+		}
+		add_research_option = tech_dyson_sphere
+		add_research_option = tech_matter_decompressor
+	}
+}
+
+country_event = {
+	id = ugw.4
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = {
+		give_technology = {
+			tech = tech_matter_decompressor
+		}
+		add_research_option = tech_dyson_sphere
+		add_research_option = tech_ring_world
 	}
 }
