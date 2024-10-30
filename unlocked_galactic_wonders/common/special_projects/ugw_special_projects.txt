@@ -1,7 +1,53 @@
 special_project = {
 	key = "UNLOCKED_GALACTIC_WONDERS_PROJECT_1"
-	tech_department = engineering_technology
-	cost = 50000
+	tech_department = physics_technology
+	cost = 24000
 	event_scope = country_event
-	on_success = { }
+	on_success = {
+		country_event = {
+			id = ugw.2
+		}
+		set_country_flag = completed_galactic_wonders_project
+		remove_country_flag = ongoing_galactic_wonders_project
+	 }
+	 on_fail = {
+	 }
+}
+
+special_project = {
+	key = "UNLOCKED_GALACTIC_WONDERS_PROJECT_2"
+	tech_department = engineering_technology
+	cost = 24000
+	event_scope = country_event
+	same_option_group_as = {
+		UNLOCKED_GALACTIC_WONDERS_PROJECT_1
+	}
+	on_success = {
+		country_event = {
+			id = ugw.3
+		}
+		set_country_flag = completed_galactic_wonders_project
+		remove_country_flag = ongoing_galactic_wonders_project
+	 }
+	 on_fail = {
+	 }
+}
+
+special_project = {
+	key = "UNLOCKED_GALACTIC_WONDERS_PROJECT_3"
+	tech_department = physics_technology
+	cost = 24000
+	event_scope = country_event
+	same_option_group_as = {
+		UNLOCKED_GALACTIC_WONDERS_PROJECT_1
+	}
+	on_success = {
+		country_event = {
+			id = ugw.4
+		}
+		set_country_flag = completed_galactic_wonders_project
+		remove_country_flag = ongoing_galactic_wonders_project
+	 }
+	 on_fail = {
+	 }
 }
