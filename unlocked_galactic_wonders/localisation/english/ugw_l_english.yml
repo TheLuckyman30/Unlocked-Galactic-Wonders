@@ -1,0 +1,12 @@
+﻿l_english:
+  ugw.1.title: "Choose a Galactic Wonder Focus"
+  ugw.1.desc: "While the construction of our first megastructure marks a huge milestone for our empire, there are still many researchers who believe we should take this tecnology to the next level. By picking one of the following options, a special project will commense, delving into the mysteries of the selected megastructure. Once the special project is completed, you will be granted the technology to build that megastructure. The other ones will be added as research options."
+  ugw.1.option.1: "Dyson Sphere"
+  ugw.1.option.2: "Ring World"
+  ugw.1.option.3: "Matter Decompressor"
+  UNLOCKED_GALACTIC_WONDERS_PROJECT_1: "Galactic Wonder Focus: Dyson Sphere"
+  UNLOCKED_GALACTIC_WONDERS_PROJECT_2: "Galactic Wonder Focus: Ring World"
+  UNLOCKED_GALACTIC_WONDERS_PROJECT_3: "Galactic Wonder Focus: Matter Decompressor"
+  UNLOCKED_GALACTIC_WONDERS_PROJECT_1_DESC: "Our empire consumes vast amounts of energy. To keep up with demand, we will focus our research efforts towards a §YDyson Sphere§!."
+  UNLOCKED_GALACTIC_WONDERS_PROJECT_2_DESC: "Our empire needs to support massive populations. To keep up with demand, we will focus our research efforts towards a §YRing World§!."
+  UNLOCKED_GALACTIC_WONDERS_PROJECT_3_DESC: "Our empire consumes vast amounts of minerals. To keep up with demand, we will focus our research efforts towards a §Matter Decompressor§!."

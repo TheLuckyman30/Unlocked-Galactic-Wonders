@@ -2,6 +2,9 @@ namespace = ugw
 
 country_event = {
 	id = ugw.1
+	title = ugw.1.title
+	desc = ugw.1.desc
+	picture = GFX_evt_megastructure_construction
 	is_triggered_only = yes
 	trigger = {
 		NOT = {
