@@ -19,6 +19,36 @@ country_event = {
 	is_triggered_only = yes
 	hide_window = yes
 	immediate = {
-		
+		give_technology = {
+			tech = tech_dyson_sphere
+		}
+		add_research_option = tech_ring_world
+		add_research_option = tech_matter_decompressor
+	}
+}
+
+country_event = {
+	id = ugw.3
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = {
+		give_technology = {
+			tech = tech_ring_world
+		}
+		add_research_option = tech_dyson_sphere
+		add_research_option = tech_matter_decompressor
+	}
+}
+
+country_event = {
+	id = ugw.4
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = {
+		give_technology = {
+			tech = tech_matter_decompressor
+		}
+		add_research_option = tech_dyson_sphere
+		add_research_option = tech_ring_world
 	}
 }
