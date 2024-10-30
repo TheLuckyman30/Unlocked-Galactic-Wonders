@@ -6,10 +6,15 @@ country_event = {
 	hide_window = yes
 	immediate = {
 		if = {
-			limit = { has_country_flag =  has_built_or_repaired_megastructure}
-			add_research_option = tech_dyson_sphere
-			add_research_option = tech_ring_world
-			add_research_option = tech_matter_decompressor
+			limit = { 
+				OR = {
+					has_country_flag = ongoing_galactic_wonders_project
+					has_country_flag = completed_galactic_wonders_project
+				} 
+			}
+			enable_special_project = {
+				name = UNLOCKED_GALACTIC_WONDERS_PROJECT_1 
+			}
 		}
 	}
 }
