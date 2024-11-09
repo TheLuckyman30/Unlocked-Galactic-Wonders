@@ -1,10 +1,4 @@
-on_megastructure_built = {
-	events = {
-		ugw.1
-	}
-}
-
-on_megastructure_upgraded = {
+on_monthly_pulse_country = {
 	events = {
 		ugw.1
 	}
