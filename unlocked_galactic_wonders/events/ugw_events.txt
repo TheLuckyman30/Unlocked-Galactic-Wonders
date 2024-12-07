@@ -6,13 +6,12 @@ country_event = {
 	desc = ugw.1.desc
 	picture = GFX_evt_megastructure_construction
 	is_triggered_only = yes
-	fire_only_once = yes
 	trigger = {
 		has_country_flag = has_built_or_repaired_megastructure
 		NOT = {
 			OR = {
-				has_country_flag = ongoing_galactic_wonders_project
-				has_country_flag = completed_galactic_wonders_project
+				has_country_flag = ugw_ongoing_galactic_wonders_project
+				has_country_flag = ugw_completed_galactic_wonders_project
 			}
 		}
 	}
@@ -23,7 +22,7 @@ country_event = {
 				name = UNLOCKED_GALACTIC_WONDERS_PROJECT_1 
 				owner = root
 			}
-			set_country_flag = ongoing_galactic_wonders_project
+			set_country_flag = ugw_ongoing_galactic_wonders_project
 		}
 	}
 	option = {
@@ -33,7 +32,7 @@ country_event = {
 				name = UNLOCKED_GALACTIC_WONDERS_PROJECT_2
 				owner = root
 			}
-			set_country_flag = ongoing_galactic_wonders_project
+			set_country_flag = ugw_ongoing_galactic_wonders_project
 		}
 	}
 	option = {
@@ -43,7 +42,7 @@ country_event = {
 				name = UNLOCKED_GALACTIC_WONDERS_PROJECT_3
 				owner = root
 			}
-			set_country_flag = ongoing_galactic_wonders_project
+			set_country_flag = ugw_ongoing_galactic_wonders_project
 		}
 	}
 }
