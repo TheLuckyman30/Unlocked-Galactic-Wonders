@@ -9,8 +9,8 @@ special_project = {
 		country_event = {
 			id = ugw.2
 		}
-		set_country_flag = completed_galactic_wonders_project
-		remove_country_flag = ongoing_galactic_wonders_project
+		set_country_flag = ugw_completed_galactic_wonders_project
+		remove_country_flag = ugw_ongoing_galactic_wonders_project
 	 }
 	 on_fail = {
 	 }
@@ -30,8 +30,8 @@ special_project = {
 		country_event = {
 			id = ugw.3
 		}
-		set_country_flag = completed_galactic_wonders_project
-		remove_country_flag = ongoing_galactic_wonders_project
+		set_country_flag = ugw_completed_galactic_wonders_project
+		remove_country_flag = ugw_ongoing_galactic_wonders_project
 	 }
 	 on_fail = {
 	 }
@@ -51,8 +51,8 @@ special_project = {
 		country_event = {
 			id = ugw.4
 		}
-		set_country_flag = completed_galactic_wonders_project
-		remove_country_flag = ongoing_galactic_wonders_project
+		set_country_flag = ugw_completed_galactic_wonders_project
+		remove_country_flag = ugw_ongoing_galactic_wonders_project
 	 }
 	 on_fail = {
 	 }
