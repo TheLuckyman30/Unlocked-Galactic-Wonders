@@ -15,6 +15,9 @@ country_event = {
 			}
 		}
 	}
+	immediate = {
+		set_country_flag = ugw_ongoing_galactic_wonders_project
+	}
 	option = {
 		name = ugw.1.option.1
 		hidden_effect = {
@@ -22,7 +25,6 @@ country_event = {
 				name = UNLOCKED_GALACTIC_WONDERS_PROJECT_1 
 				owner = root
 			}
-			set_country_flag = ugw_ongoing_galactic_wonders_project
 		}
 	}
 	option = {
@@ -32,7 +34,6 @@ country_event = {
 				name = UNLOCKED_GALACTIC_WONDERS_PROJECT_2
 				owner = root
 			}
-			set_country_flag = ugw_ongoing_galactic_wonders_project
 		}
 	}
 	option = {
@@ -42,7 +43,6 @@ country_event = {
 				name = UNLOCKED_GALACTIC_WONDERS_PROJECT_3
 				owner = root
 			}
-			set_country_flag = ugw_ongoing_galactic_wonders_project
 		}
 	}
 }

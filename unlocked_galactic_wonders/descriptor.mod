@@ -3,4 +3,4 @@ tags={
 	"Gameplay"
 }
 name="Unlocked Galactic Wonders"
-supported_version="v3.14.*"
+supported_version="v4.*"
